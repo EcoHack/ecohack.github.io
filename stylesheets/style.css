@@ -255,7 +255,7 @@ div.layout section div.inner ul li a {text-indent:-9999px; line-height:0; font-s
 div.layout section div.inner ul.bronze {display:block; width:610px; margin:-20px 0 0 100px; padding:0}
 
 div.layout section div.inner ul li a.cartodb {display:block; width:186px; height:65px; background:url('../images/cartodb.png')}
-div.layout section div.inner  ul li a.reddmetrics {display:block; width:174px; height:76px; background:url('../images/redd.jpg') no-repeat 0px 4px; } 
+div.layout section div.inner  ul li a.datalab {display:block; width:186px; height:57px; background:url('../images/datalab_logo_small.png') no-repeat 0px 25px; } 
 div.layout section div.inner  ul li a.publiclab {display:block; width:184px; height:57px; background:url('../images/plots-logo-text.png') no-repeat 0px 10px; margin-left: 0px;}
 div.layout section div.inner  ul li a.ecolab {display:block; width:174px; height:76px; background:url('../images/ecolab.png') no-repeat 0px 10px; margin-left: 0px;}
 
