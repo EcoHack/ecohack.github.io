@@ -259,6 +259,8 @@ div.layout section div.inner  ul li a.datalab {display:block; width:186px; heigh
 div.layout section div.inner  ul li a.publiclab {display:block; width:184px; height:57px; background:url('../images/public-lab-logo-small.png') no-repeat 0px 10px; margin-left: 0px;}
 div.layout section div.inner  ul li a.ecolab {display:block; width:174px; height:76px; background:url('../images/ecolab.png') no-repeat 0px 10px; margin-left: 0px;}
 
+div.layout section div.inner  ul li a.wri {display:block; width:186px; height:57px; background:url('../images/WRI_logo_small.png') no-repeat; } 
+
 
 div.layout section div.inner .list {position: relative; float: left; max-width:620px; margin:2px 0 0 0; padding:20px 0 0 0; font:normal 17px "Myriad Pro",Arial; color:#404040}
 div.layout section div.inner .list .head {float: left; margin: 15px 0 10px 0; width:650px; zoom:1; font-weight: bold;}
