@@ -260,6 +260,7 @@ div.layout section div.inner  ul li a.publiclab {display:block; width:184px; hei
 div.layout section div.inner  ul li a.ecolab {display:block; width:174px; height:76px; background:url('../images/ecolab.png') no-repeat 0px 10px; margin-left: 0px;}
 
 div.layout section div.inner  ul li a.wri {display:block; width:186px; height:57px; background:url('../images/WRI_logo_small.png') no-repeat; } 
+div.layout section div.inner  ul li a.gif {display:block; width:110px; height:35px; background:url('../images/gif.png') no-repeat; margin-left: 0px;}
 
 
 div.layout section div.inner .list {position: relative; float: left; max-width:620px; margin:2px 0 0 0; padding:20px 0 0 0; font:normal 17px "Myriad Pro",Arial; color:#404040}
