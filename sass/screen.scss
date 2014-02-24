@@ -49,7 +49,7 @@ a {
 /* Header */
 
 .header {
-  background: image-url('header-bg.png') no-repeat;
+  background: url('../img/header-bg.png') no-repeat;
   @include background-size(cover);
 
   .inner {
@@ -200,17 +200,17 @@ a {
 }
 
 .sao_paulo {
-  background: image-url('2013-10-26-fp-hackathon5_1382994320.jpg') no-repeat;
+  background: url('../img/2013-10-26-fp-hackathon5_1382994320.jpg') no-repeat;
   @include background-size(cover);
 }
 
 .san_francisco {
-  background: image-url('CodeForAmericaSTILL_610x343.jpg') no-repeat;
+  background: url('../img/CodeForAmericaSTILL_610x343.jpg') no-repeat;
   @include background-size(cover);
 }
 
 .new_york {
-  background: image-url('6316166190_e02d1ae96a_b.jpg') no-repeat;
+  background: url('../img/6316166190_e02d1ae96a_b.jpg') no-repeat;
   @include background-size(cover);
 }
 
