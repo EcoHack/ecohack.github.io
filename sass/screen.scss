@@ -113,6 +113,7 @@ a {
 
 .content {
   margin-bottom: 30px;
+  font: 17px/1.5 "Myriad Pro",Arial;
 
   p {
     margin-bottom: 10px;
@@ -214,6 +215,8 @@ a {
 }
 
 .section-header {
+  font: 17px/1.5 "AdelleBasic_Bold", Helvetica, Arial, sans-serif;
+  text-transform:uppercase;
   background: #333;
   max-width: 300px;
   padding: 10px 20px;
