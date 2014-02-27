@@ -174,57 +174,61 @@ a:hover {
   display: block;
   color: #333;
 }
+/* line 108, ../sass/screen.scss */
+.huge a .white {
+  color: #fff;
+}
 
 /* Content */
-/* line 114, ../sass/screen.scss */
+/* line 117, ../sass/screen.scss */
 .content {
   margin-bottom: 30px;
   font: 17px/1.5 "Myriad Pro",Arial;
 }
-/* line 118, ../sass/screen.scss */
+/* line 121, ../sass/screen.scss */
 .content p {
   margin-bottom: 10px;
 }
-/* line 122, ../sass/screen.scss */
+/* line 125, ../sass/screen.scss */
 .content .section-header {
   margin-top: 30px;
 }
-/* line 126, ../sass/screen.scss */
+/* line 129, ../sass/screen.scss */
 .content .columns {
   margin-bottom: 0;
 }
-/* line 129, ../sass/screen.scss */
+/* line 132, ../sass/screen.scss */
 .content .columns .column {
   min-height: 0;
   margin-bottom: 20px;
 }
-/* line 134, ../sass/screen.scss */
+/* line 137, ../sass/screen.scss */
 .content .columns p {
   margin-bottom: 10px;
   font-weight: 400;
   line-height: 1.5;
 }
-/* line 140, ../sass/screen.scss */
+/* line 143, ../sass/screen.scss */
 .content .columns .three {
   text-align: left;
   margin-right: 20px;
 }
-/* line 146, ../sass/screen.scss */
+/* line 149, ../sass/screen.scss */
 .content .bullets {
   font-size: 15px;
 }
-/* line 149, ../sass/screen.scss */
+/* line 152, ../sass/screen.scss */
 .content .bullets li {
   margin-bottom: 10px;
 }
 
-/* line 155, ../sass/screen.scss */
+/* line 158, ../sass/screen.scss */
 .columns {
   overflow: hidden;
   margin-bottom: 20px;
 }
 
-/* line 160, ../sass/screen.scss */
+/* line 163, ../sass/screen.scss */
 .column {
   position: relative;
   float: left;
@@ -232,32 +236,32 @@ a:hover {
   text-align: center;
   color: #333;
 }
-/* line 167, ../sass/screen.scss */
+/* line 170, ../sass/screen.scss */
 .column.three {
   min-width: 200px;
   width: 33.33%;
 }
-/* line 172, ../sass/screen.scss */
+/* line 175, ../sass/screen.scss */
 .column.five {
   width: 20%;
 }
-/* line 176, ../sass/screen.scss */
+/* line 179, ../sass/screen.scss */
 .column p {
   margin-bottom: 40px;
   line-height: 1.2;
   font-weight: 600;
 }
-/* line 181, ../sass/screen.scss */
+/* line 184, ../sass/screen.scss */
 .column p strong {
   display: block;
   margin-bottom: 10px;
 }
-/* line 187, ../sass/screen.scss */
+/* line 190, ../sass/screen.scss */
 .column .content-header {
   margin-top: 0;
 }
 
-/* line 192, ../sass/screen.scss */
+/* line 195, ../sass/screen.scss */
 .column-inner {
   position: absolute;
   top: 0;
@@ -265,12 +269,12 @@ a:hover {
   bottom: 0;
   width: 100%;
 }
-/* line 197, ../sass/screen.scss */
+/* line 200, ../sass/screen.scss */
 .column-inner .button {
   margin-bottom: 40px;
 }
 
-/* line 202, ../sass/screen.scss */
+/* line 205, ../sass/screen.scss */
 .sao_paulo {
   background: url("../img/2013-10-26-fp-hackathon5_1382994320.jpg") no-repeat right bottom;
   -webkit-background-size: cover;
@@ -279,7 +283,7 @@ a:hover {
   background-size: cover;
 }
 
-/* line 207, ../sass/screen.scss */
+/* line 210, ../sass/screen.scss */
 .san_francisco {
   background: url("../img/CodeForAmericaSTILL_610x343.jpg") no-repeat;
   -webkit-background-size: cover;
@@ -288,7 +292,7 @@ a:hover {
   background-size: cover;
 }
 
-/* line 212, ../sass/screen.scss */
+/* line 215, ../sass/screen.scss */
 .new_york {
   background: url("../img/6316166190_e02d1ae96a_b.jpg") no-repeat;
   -webkit-background-size: cover;
@@ -297,7 +301,7 @@ a:hover {
   background-size: cover;
 }
 
-/* line 217, ../sass/screen.scss */
+/* line 220, ../sass/screen.scss */
 .section-header {
   font: 17px/1.5 "AdelleBasic_Bold", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
@@ -310,12 +314,12 @@ a:hover {
   color: #fff;
 }
 
-/* line 229, ../sass/screen.scss */
+/* line 232, ../sass/screen.scss */
 .content-header {
   margin: 20px 0 10px;
   font-weight: bold;
 }
-/* line 233, ../sass/screen.scss */
+/* line 236, ../sass/screen.scss */
 .content-header span {
   display: block;
   color: #666;
@@ -324,54 +328,54 @@ a:hover {
 }
 
 /* Footer */
-/* line 244, ../sass/screen.scss */
+/* line 247, ../sass/screen.scss */
 .footer {
   padding: 40px 0;
   background: #444;
   color: #666;
 }
-/* line 249, ../sass/screen.scss */
+/* line 252, ../sass/screen.scss */
 .footer p {
   font-size: 15px;
   color: #999;
 }
-/* line 254, ../sass/screen.scss */
+/* line 257, ../sass/screen.scss */
 .footer a {
   color: #ccc;
 }
-/* line 257, ../sass/screen.scss */
+/* line 260, ../sass/screen.scss */
 .footer a:hover {
   color: #eee;
 }
 
 /* Media queries */
 @media (max-width: 640px) {
-  /* line 267, ../sass/screen.scss */
+  /* line 270, ../sass/screen.scss */
   html {
     font-size: 15px;
   }
 
-  /* line 271, ../sass/screen.scss */
+  /* line 274, ../sass/screen.scss */
   .date {
     width: 100%;
     text-align: center;
   }
-  /* line 275, ../sass/screen.scss */
+  /* line 278, ../sass/screen.scss */
   .date .button {
     float: none;
   }
 
-  /* line 280, ../sass/screen.scss */
+  /* line 283, ../sass/screen.scss */
   .huge {
     margin-top: 180px;
     font-size: 96px;
   }
-  /* line 284, ../sass/screen.scss */
+  /* line 287, ../sass/screen.scss */
   .huge span {
     font-size: 72px;
   }
 
-  /* line 289, ../sass/screen.scss */
+  /* line 292, ../sass/screen.scss */
   .column.three {
     width: 100%;
   }
