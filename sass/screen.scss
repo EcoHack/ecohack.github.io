@@ -48,7 +48,7 @@ a {
 /* Header */
 
 .header {
-  background: url('../img/header-bg.png') no-repeat;
+  background: url('../img/header-bg.png') no-repeat right bottom;
   @include background-size(cover);
 
   .inner {
@@ -92,6 +92,7 @@ a {
   margin: 50px 0 30px;
   font-weight: bold;
   font-size: 144px;
+  color: white;
   line-height: 1;
 
   span {
@@ -198,7 +199,7 @@ a {
 }
 
 .sao_paulo {
-  background: url('../img/2013-10-26-fp-hackathon5_1382994320.jpg') no-repeat;
+  background: url('../img/2013-10-26-fp-hackathon5_1382994320.jpg') no-repeat right bottom;
   @include background-size(cover);
 }
 

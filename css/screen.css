@@ -1,1 +1,375 @@
-html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font:inherit;font-size:100%;vertical-align:baseline}html{line-height:1}ol,ul{list-style:none}table{border-collapse:collapse;border-spacing:0}caption,th,td{text-align:left;font-weight:normal;vertical-align:middle}q,blockquote{quotes:none}q:before,q:after,blockquote:before,blockquote:after{content:"";content:none}a img{border:none}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary{display:block}html{font:17px/1.5 "Open Sans", Helvetica, Arial, sans-serif;background:#fefefe;color:#444}.inner{overflow:hidden;max-width:960px;margin:0 auto;padding:0 10px}strong{font-weight:bold}a{font-weight:bold;text-decoration:none;color:#4DB02E}a:hover{color:#449c29}@font-face{font-family:'AdelleBasic_Bold';src:url("../fonts/AdelleBasic_Bold.eot"),url("../fonts/AdelleBasic_Bold.ttf") format("truetype"),url("../fonts/AdelleBasic_Bold.svg") format("svg");font-weight:normal;font-style:normal}.title{font-family:'AdelleBasic_Bold'}.header{background:url("../img/header-bg.png") no-repeat;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover}.header .inner{position:relative}.date{position:absolute;top:50px;right:10px;font-weight:600}.date span{font-weight:400}.date .button{float:right;margin-top:20px}.button{display:inline-block;padding:0 20px;border:2px solid #333;font-weight:bold;font-size:14px;line-height:43px;text-transform:uppercase;color:#333;-webkit-transition:all 0.1s;-moz-transition:all 0.1s;-o-transition:all 0.1s;transition:all 0.1s}.button:hover{background:#333;color:#fff}.huge{margin:50px 0 30px;font-weight:bold;font-size:144px;line-height:1}.huge span{display:block;margin-top:-10px;font-weight:normal;font-size:108px}.huge a{display:block;color:#333}.content{margin-bottom:30px}.content p{margin-bottom:10px}.content .section-header{margin-top:30px}.content .columns{margin-bottom:0}.content .columns .column{min-height:0;margin-bottom:20px}.content .columns p{margin-bottom:10px;font-weight:400;line-height:1.5}.content .columns .three{text-align:left;margin-right:20px}.content .bullets{font-size:15px}.content .bullets li{margin-bottom:10px}.columns{overflow:hidden;margin-bottom:20px}.column{position:relative;float:left;min-height:266px;font-family:'Open Sans';text-align:center;color:#333}.column.three{min-width:200px;width:33.33%}.column.five{width:20%}.column p{margin-bottom:40px;line-height:1.2;font-weight:600}.column p strong{display:block;margin-bottom:10px}.column .content-header{margin-top:0}.column-inner{position:absolute;top:0;right:0;bottom:0;width:100%}.column-inner .button{margin-bottom:40px}.sao_paulo{background:url("../img/2013-10-26-fp-hackathon5_1382994320.jpg") no-repeat;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover}.san_francisco{background:url("../img/CodeForAmericaSTILL_610x343.jpg") no-repeat;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover}.new_york{background:url("../img/6316166190_e02d1ae96a_b.jpg") no-repeat;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover}.section-header{background:#333;max-width:300px;padding:10px 20px;margin:0 30px 30px 0;font-weight:bold;text-align:right;color:#fff}.content-header{margin:20px 0 10px;font-weight:bold}.content-header span{display:block;color:#666;font-size:15px;text-transform:uppercase}.footer{padding:40px 0;background:#444;color:#666}.footer p{font-size:15px;color:#999}.footer a{color:#ccc}.footer a:hover{color:#eee}@media (max-width: 640px){html{font-size:15px}.date{width:100%;text-align:center}.date .button{float:none}.huge{margin-top:180px;font-size:96px}.huge span{font-size:72px}.column.three{width:100%}}
+/* line 17, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* Fonts */
+@font-face {
+  font-family: 'AdelleBasic_Bold';
+  src: url("../fonts/AdelleBasic_Bold.eot"), url("../fonts/AdelleBasic_Bold.ttf") format("truetype"), url("../fonts/AdelleBasic_Bold.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 18, ../sass/screen.scss */
+html {
+  font: 17px/1.5 "AdelleBasic_Bold", Helvetica, Arial, sans-serif;
+  background: #fefefe;
+  color: #444;
+}
+
+/* line 24, ../sass/screen.scss */
+.inner {
+  overflow: hidden;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+/* line 31, ../sass/screen.scss */
+strong {
+  font-weight: bold;
+}
+
+/* line 33, ../sass/screen.scss */
+a {
+  font-weight: bold;
+  text-decoration: none;
+  color: #4DB02E;
+}
+/* line 38, ../sass/screen.scss */
+a:hover {
+  color: #449c29;
+}
+
+/* Header */
+/* line 50, ../sass/screen.scss */
+.header {
+  background: url("../img/header-bg.png") no-repeat right bottom;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+/* line 54, ../sass/screen.scss */
+.header .inner {
+  position: relative;
+}
+
+/* line 59, ../sass/screen.scss */
+.date {
+  position: absolute;
+  top: 50px;
+  right: 10px;
+  font-weight: 600;
+}
+/* line 64, ../sass/screen.scss */
+.date span {
+  font-weight: 400;
+}
+/* line 68, ../sass/screen.scss */
+.date .button {
+  float: right;
+  margin-top: 20px;
+}
+
+/* line 74, ../sass/screen.scss */
+.button {
+  display: inline-block;
+  padding: 0 20px;
+  border: 2px solid #333;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 43px;
+  text-transform: uppercase;
+  color: #333;
+  -webkit-transition: all 0.1s;
+  -moz-transition: all 0.1s;
+  -o-transition: all 0.1s;
+  transition: all 0.1s;
+}
+/* line 85, ../sass/screen.scss */
+.button:hover {
+  background: #333;
+  color: #fff;
+}
+
+/* line 91, ../sass/screen.scss */
+.huge {
+  margin: 50px 0 30px;
+  font-weight: bold;
+  font-size: 144px;
+  color: white;
+  line-height: 1;
+}
+/* line 98, ../sass/screen.scss */
+.huge span {
+  display: block;
+  margin-top: -10px;
+  font-weight: normal;
+  font-size: 108px;
+}
+/* line 105, ../sass/screen.scss */
+.huge a {
+  display: block;
+  color: #333;
+}
+
+/* Content */
+/* line 114, ../sass/screen.scss */
+.content {
+  margin-bottom: 30px;
+}
+/* line 117, ../sass/screen.scss */
+.content p {
+  margin-bottom: 10px;
+}
+/* line 121, ../sass/screen.scss */
+.content .section-header {
+  margin-top: 30px;
+}
+/* line 125, ../sass/screen.scss */
+.content .columns {
+  margin-bottom: 0;
+}
+/* line 128, ../sass/screen.scss */
+.content .columns .column {
+  min-height: 0;
+  margin-bottom: 20px;
+}
+/* line 133, ../sass/screen.scss */
+.content .columns p {
+  margin-bottom: 10px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+/* line 139, ../sass/screen.scss */
+.content .columns .three {
+  text-align: left;
+  margin-right: 20px;
+}
+/* line 145, ../sass/screen.scss */
+.content .bullets {
+  font-size: 15px;
+}
+/* line 148, ../sass/screen.scss */
+.content .bullets li {
+  margin-bottom: 10px;
+}
+
+/* line 154, ../sass/screen.scss */
+.columns {
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+/* line 159, ../sass/screen.scss */
+.column {
+  position: relative;
+  float: left;
+  min-height: 266px;
+  text-align: center;
+  color: #333;
+}
+/* line 166, ../sass/screen.scss */
+.column.three {
+  min-width: 200px;
+  width: 33.33%;
+}
+/* line 171, ../sass/screen.scss */
+.column.five {
+  width: 20%;
+}
+/* line 175, ../sass/screen.scss */
+.column p {
+  margin-bottom: 40px;
+  line-height: 1.2;
+  font-weight: 600;
+}
+/* line 180, ../sass/screen.scss */
+.column p strong {
+  display: block;
+  margin-bottom: 10px;
+}
+/* line 186, ../sass/screen.scss */
+.column .content-header {
+  margin-top: 0;
+}
+
+/* line 191, ../sass/screen.scss */
+.column-inner {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+}
+/* line 196, ../sass/screen.scss */
+.column-inner .button {
+  margin-bottom: 40px;
+}
+
+/* line 201, ../sass/screen.scss */
+.sao_paulo {
+  background: url("../img/2013-10-26-fp-hackathon5_1382994320.jpg") no-repeat right bottom;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* line 206, ../sass/screen.scss */
+.san_francisco {
+  background: url("../img/CodeForAmericaSTILL_610x343.jpg") no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* line 211, ../sass/screen.scss */
+.new_york {
+  background: url("../img/6316166190_e02d1ae96a_b.jpg") no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* line 216, ../sass/screen.scss */
+.section-header {
+  background: #333;
+  max-width: 300px;
+  padding: 10px 20px;
+  margin: 0 30px 30px 0;
+  font-weight: bold;
+  text-align: right;
+  color: #fff;
+}
+
+/* line 226, ../sass/screen.scss */
+.content-header {
+  margin: 20px 0 10px;
+  font-weight: bold;
+}
+/* line 230, ../sass/screen.scss */
+.content-header span {
+  display: block;
+  color: #666;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+/* Footer */
+/* line 241, ../sass/screen.scss */
+.footer {
+  padding: 40px 0;
+  background: #444;
+  color: #666;
+}
+/* line 246, ../sass/screen.scss */
+.footer p {
+  font-size: 15px;
+  color: #999;
+}
+/* line 251, ../sass/screen.scss */
+.footer a {
+  color: #ccc;
+}
+/* line 254, ../sass/screen.scss */
+.footer a:hover {
+  color: #eee;
+}
+
+/* Media queries */
+@media (max-width: 640px) {
+  /* line 264, ../sass/screen.scss */
+  html {
+    font-size: 15px;
+  }
+
+  /* line 268, ../sass/screen.scss */
+  .date {
+    width: 100%;
+    text-align: center;
+  }
+  /* line 272, ../sass/screen.scss */
+  .date .button {
+    float: none;
+  }
+
+  /* line 277, ../sass/screen.scss */
+  .huge {
+    margin-top: 180px;
+    font-size: 96px;
+  }
+  /* line 281, ../sass/screen.scss */
+  .huge span {
+    font-size: 72px;
+  }
+
+  /* line 286, ../sass/screen.scss */
+  .column.three {
+    width: 100%;
+  }
+}
