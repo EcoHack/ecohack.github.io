@@ -117,12 +117,12 @@ a:hover {
   background-image: -webkit-linear-gradient(right bottom, #19ab3b 7%, #12b849 20%, #83deaa 59%, white 100%);
   background-image: -ms-linear-gradient(right bottom, #19ab3b 7%, #12b849 20%, #83deaa 59%, white 100%);
   background-image: linear-gradient(to right bottom, #19ab3b 7%, #12b849 20%, #83deaa 59%, #ffffff 100%);
-  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.05, #b4def0), color-stop(0.34, #a8cbf0), color-stop(0.96, #edfffb));
-  background-image: -o-linear-gradient(top, #b4def0 5%, #a8cbf0 34%, #edfffb 96%);
-  background-image: -moz-linear-gradient(top, #b4def0 5%, #a8cbf0 34%, #edfffb 96%);
-  background-image: -webkit-linear-gradient(top, #b4def0 5%, #a8cbf0 34%, #edfffb 96%);
-  background-image: -ms-linear-gradient(top, #b4def0 5%, #a8cbf0 34%, #edfffb 96%);
-  background-image: linear-gradient(to top, #b4def0 5%, #a8cbf0 34%, #edfffb 96%);
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.05, #b4def0), color-stop(0.34, #d9ebff), color-stop(0.96, #edfffb));
+  background-image: -o-linear-gradient(top, #b4def0 5%, #d9ebff 34%, #edfffb 96%);
+  background-image: -moz-linear-gradient(top, #b4def0 5%, #d9ebff 34%, #edfffb 96%);
+  background-image: -webkit-linear-gradient(top, #b4def0 5%, #d9ebff 34%, #edfffb 96%);
+  background-image: -ms-linear-gradient(top, #b4def0 5%, #d9ebff 34%, #edfffb 96%);
+  background-image: linear-gradient(to top, #b4def0 5%, #d9ebff 34%, #edfffb 96%);
 }
 /* line 88, ../sass/screen.scss */
 .header .inner {
