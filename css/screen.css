@@ -110,30 +110,43 @@ a:hover {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  background-image: linear-gradient(to right, rgba(166, 214, 42, 0.9), rgba(63, 184, 238, 0.2));
+  background-image: -webkit-gradient(linear, left top, right bottom, color-stop(0.07, #19ab3b), color-stop(0.2, #12b849), color-stop(0.59, #83deaa), color-stop(1, white));
+  background-image: -o-linear-gradient(right bottom, #19ab3b 7%, #12b849 20%, #83deaa 59%, white 100%);
+  background-image: -moz-linear-gradient(right bottom, #19ab3b 7%, #12b849 20%, #83deaa 59%, white 100%);
+  background-image: -webkit-linear-gradient(right bottom, #19ab3b 7%, #12b849 20%, #83deaa 59%, white 100%);
+  background-image: -ms-linear-gradient(right bottom, #19ab3b 7%, #12b849 20%, #83deaa 59%, white 100%);
+  background-image: linear-gradient(to right bottom, #19ab3b 7%, #12b849 20%, #83deaa 59%, #ffffff 100%);
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.05, #b4def0), color-stop(0.34, #a8cbf0), color-stop(0.96, #edfffb));
+  background-image: -o-linear-gradient(top, #b4def0 5%, #a8cbf0 34%, #edfffb 96%);
+  background-image: -moz-linear-gradient(top, #b4def0 5%, #a8cbf0 34%, #edfffb 96%);
+  background-image: -webkit-linear-gradient(top, #b4def0 5%, #a8cbf0 34%, #edfffb 96%);
+  background-image: -ms-linear-gradient(top, #b4def0 5%, #a8cbf0 34%, #edfffb 96%);
+  background-image: linear-gradient(to top, #b4def0 5%, #a8cbf0 34%, #edfffb 96%);
 }
-/* line 54, ../sass/screen.scss */
+/* line 88, ../sass/screen.scss */
 .header .inner {
   position: relative;
 }
 
-/* line 59, ../sass/screen.scss */
+/* line 93, ../sass/screen.scss */
 .date {
   position: absolute;
   top: 50px;
   right: 10px;
   font-weight: 600;
 }
-/* line 64, ../sass/screen.scss */
+/* line 98, ../sass/screen.scss */
 .date span {
   font-weight: 400;
 }
-/* line 68, ../sass/screen.scss */
+/* line 102, ../sass/screen.scss */
 .date .button {
   float: right;
   margin-top: 20px;
 }
 
-/* line 74, ../sass/screen.scss */
+/* line 108, ../sass/screen.scss */
 .button {
   display: inline-block;
   padding: 0 20px;
@@ -148,13 +161,13 @@ a:hover {
   -o-transition: all 0.1s;
   transition: all 0.1s;
 }
-/* line 85, ../sass/screen.scss */
+/* line 119, ../sass/screen.scss */
 .button:hover {
   background: #333;
   color: #fff;
 }
 
-/* line 91, ../sass/screen.scss */
+/* line 125, ../sass/screen.scss */
 .huge {
   margin: 50px 0 30px;
   font-weight: bold;
@@ -162,73 +175,73 @@ a:hover {
   color: white;
   line-height: 1;
 }
-/* line 98, ../sass/screen.scss */
+/* line 132, ../sass/screen.scss */
 .huge span {
   display: block;
   margin-top: -10px;
   font-weight: normal;
   font-size: 108px;
 }
-/* line 105, ../sass/screen.scss */
+/* line 139, ../sass/screen.scss */
 .huge a {
   display: block;
   color: #333;
 }
-/* line 108, ../sass/screen.scss */
+/* line 142, ../sass/screen.scss */
 .huge a .white {
   color: #fff;
 }
 
 /* Content */
-/* line 117, ../sass/screen.scss */
+/* line 151, ../sass/screen.scss */
 .content {
   margin-bottom: 30px;
   font: 17px/1.5 "Myriad Pro",Arial;
 }
-/* line 121, ../sass/screen.scss */
+/* line 155, ../sass/screen.scss */
 .content p {
   margin-bottom: 10px;
 }
-/* line 125, ../sass/screen.scss */
+/* line 159, ../sass/screen.scss */
 .content .section-header {
   margin-top: 30px;
 }
-/* line 129, ../sass/screen.scss */
+/* line 163, ../sass/screen.scss */
 .content .columns {
   margin-bottom: 0;
 }
-/* line 132, ../sass/screen.scss */
+/* line 166, ../sass/screen.scss */
 .content .columns .column {
   min-height: 0;
   margin-bottom: 20px;
 }
-/* line 137, ../sass/screen.scss */
+/* line 171, ../sass/screen.scss */
 .content .columns p {
   margin-bottom: 10px;
   font-weight: 400;
   line-height: 1.5;
 }
-/* line 143, ../sass/screen.scss */
+/* line 177, ../sass/screen.scss */
 .content .columns .three {
   text-align: left;
   margin-right: 20px;
 }
-/* line 149, ../sass/screen.scss */
+/* line 183, ../sass/screen.scss */
 .content .bullets {
   font-size: 15px;
 }
-/* line 152, ../sass/screen.scss */
+/* line 186, ../sass/screen.scss */
 .content .bullets li {
   margin-bottom: 10px;
 }
 
-/* line 158, ../sass/screen.scss */
+/* line 192, ../sass/screen.scss */
 .columns {
   overflow: hidden;
   margin-bottom: 20px;
 }
 
-/* line 163, ../sass/screen.scss */
+/* line 197, ../sass/screen.scss */
 .column {
   position: relative;
   float: left;
@@ -236,32 +249,32 @@ a:hover {
   text-align: center;
   color: #333;
 }
-/* line 170, ../sass/screen.scss */
+/* line 204, ../sass/screen.scss */
 .column.three {
   min-width: 200px;
   width: 33.33%;
 }
-/* line 175, ../sass/screen.scss */
+/* line 209, ../sass/screen.scss */
 .column.five {
   width: 20%;
 }
-/* line 179, ../sass/screen.scss */
+/* line 213, ../sass/screen.scss */
 .column p {
   margin-bottom: 40px;
   line-height: 1.2;
   font-weight: 600;
 }
-/* line 184, ../sass/screen.scss */
+/* line 218, ../sass/screen.scss */
 .column p strong {
   display: block;
   margin-bottom: 10px;
 }
-/* line 190, ../sass/screen.scss */
+/* line 224, ../sass/screen.scss */
 .column .content-header {
   margin-top: 0;
 }
 
-/* line 195, ../sass/screen.scss */
+/* line 229, ../sass/screen.scss */
 .column-inner {
   position: absolute;
   top: 0;
@@ -269,12 +282,12 @@ a:hover {
   bottom: 0;
   width: 100%;
 }
-/* line 200, ../sass/screen.scss */
+/* line 234, ../sass/screen.scss */
 .column-inner .button {
   margin-bottom: 40px;
 }
 
-/* line 205, ../sass/screen.scss */
+/* line 239, ../sass/screen.scss */
 .sao_paulo {
   background: url("../img/2013-10-26-fp-hackathon5_1382994320.jpg") no-repeat right bottom;
   -webkit-background-size: cover;
@@ -283,7 +296,7 @@ a:hover {
   background-size: cover;
 }
 
-/* line 210, ../sass/screen.scss */
+/* line 244, ../sass/screen.scss */
 .san_francisco {
   background: url("../img/CodeForAmericaSTILL_610x343.jpg") no-repeat;
   -webkit-background-size: cover;
@@ -292,7 +305,7 @@ a:hover {
   background-size: cover;
 }
 
-/* line 215, ../sass/screen.scss */
+/* line 249, ../sass/screen.scss */
 .new_york {
   background: url("../img/6316166190_e02d1ae96a_b.jpg") no-repeat;
   -webkit-background-size: cover;
@@ -301,7 +314,7 @@ a:hover {
   background-size: cover;
 }
 
-/* line 220, ../sass/screen.scss */
+/* line 254, ../sass/screen.scss */
 .section-header {
   font: 17px/1.5 "AdelleBasic_Bold", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
@@ -314,12 +327,12 @@ a:hover {
   color: #fff;
 }
 
-/* line 232, ../sass/screen.scss */
+/* line 266, ../sass/screen.scss */
 .content-header {
   margin: 20px 0 10px;
   font-weight: bold;
 }
-/* line 236, ../sass/screen.scss */
+/* line 270, ../sass/screen.scss */
 .content-header span {
   display: block;
   color: #666;
@@ -328,54 +341,54 @@ a:hover {
 }
 
 /* Footer */
-/* line 247, ../sass/screen.scss */
+/* line 281, ../sass/screen.scss */
 .footer {
   padding: 40px 0;
   background: #444;
   color: #666;
 }
-/* line 252, ../sass/screen.scss */
+/* line 286, ../sass/screen.scss */
 .footer p {
   font-size: 15px;
   color: #999;
 }
-/* line 257, ../sass/screen.scss */
+/* line 291, ../sass/screen.scss */
 .footer a {
   color: #ccc;
 }
-/* line 260, ../sass/screen.scss */
+/* line 294, ../sass/screen.scss */
 .footer a:hover {
   color: #eee;
 }
 
 /* Media queries */
 @media (max-width: 640px) {
-  /* line 270, ../sass/screen.scss */
+  /* line 304, ../sass/screen.scss */
   html {
     font-size: 15px;
   }
 
-  /* line 274, ../sass/screen.scss */
+  /* line 308, ../sass/screen.scss */
   .date {
     width: 100%;
     text-align: center;
   }
-  /* line 278, ../sass/screen.scss */
+  /* line 312, ../sass/screen.scss */
   .date .button {
     float: none;
   }
 
-  /* line 283, ../sass/screen.scss */
+  /* line 317, ../sass/screen.scss */
   .huge {
     margin-top: 180px;
     font-size: 96px;
   }
-  /* line 287, ../sass/screen.scss */
+  /* line 321, ../sass/screen.scss */
   .huge span {
     font-size: 72px;
   }
 
-  /* line 292, ../sass/screen.scss */
+  /* line 326, ../sass/screen.scss */
   .column.three {
     width: 100%;
   }

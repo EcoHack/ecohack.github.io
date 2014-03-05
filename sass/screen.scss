@@ -51,6 +51,40 @@ a {
   background: url('../img/header-bg.png') no-repeat right bottom;
   @include background-size(cover);
 
+  background-image: linear-gradient(
+      to right, 
+      rgba(166,214,42,0.9), rgba(63,184,238,0.2)
+  );
+
+background-image: -webkit-gradient(
+  linear,
+  left top,
+  right bottom,
+  color-stop(0.07, #19AB3B),
+  color-stop(0.2, #12B849),
+  color-stop(0.59, #83DEAA),
+  color-stop(1, #FFFFFF)
+);
+background-image: -o-linear-gradient(right bottom, #19AB3B 7%, #12B849 20%, #83DEAA 59%, #FFFFFF 100%);
+background-image: -moz-linear-gradient(right bottom, #19AB3B 7%, #12B849 20%, #83DEAA 59%, #FFFFFF 100%);
+background-image: -webkit-linear-gradient(right bottom, #19AB3B 7%, #12B849 20%, #83DEAA 59%, #FFFFFF 100%);
+background-image: -ms-linear-gradient(right bottom, #19AB3B 7%, #12B849 20%, #83DEAA 59%, #FFFFFF 100%);
+background-image: linear-gradient(to right bottom, #19AB3B 7%, #12B849 20%, #83DEAA 59%, #FFFFFF 100%);
+
+background-image: -webkit-gradient(
+  linear,
+  left bottom,
+  left top,
+  color-stop(0.05, #B4DEF0),
+  color-stop(0.34, #A8CBF0),
+  color-stop(0.96, #EDFFFB)
+);
+background-image: -o-linear-gradient(top, #B4DEF0 5%, #A8CBF0 34%, #EDFFFB 96%);
+background-image: -moz-linear-gradient(top, #B4DEF0 5%, #A8CBF0 34%, #EDFFFB 96%);
+background-image: -webkit-linear-gradient(top, #B4DEF0 5%, #A8CBF0 34%, #EDFFFB 96%);
+background-image: -ms-linear-gradient(top, #B4DEF0 5%, #A8CBF0 34%, #EDFFFB 96%);
+background-image: linear-gradient(to top, #B4DEF0 5%, #A8CBF0 34%, #EDFFFB 96%);
+
   .inner {
     position: relative;
   }
