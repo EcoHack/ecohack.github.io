@@ -89,6 +89,8 @@ a {
 }
 
 .date {
+  border-bottom: 1px solid #fff;
+  padding-bottom: 10px;
   font-size: 19px;
 }
 
@@ -251,6 +253,7 @@ a {
 
   .aside {
     padding: 15px;
+    font-size: 15px;
     text-align: left;
     background: #eee;
     @include border-radius(3px);
