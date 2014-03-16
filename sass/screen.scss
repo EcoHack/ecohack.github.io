@@ -2,6 +2,7 @@
 @import "compass/css3/border-radius";
 @import "compass/css3/box-shadow";
 @import "compass/css3/opacity";
+@import "compass/css3/transition";
 
 
 $cGreen: #6CBB33;
@@ -44,6 +45,7 @@ a {
   font-weight: bold;
   text-decoration: none;
   color: $cGreen;
+  @include transition(all .1s);
 
   &:hover {
     color: darken($cGreen, 5%);
@@ -97,7 +99,7 @@ a {
 .submit {
   display: block;
   margin-top: 10px;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 25px;
   line-height: 70px;
   text-transform: uppercase;
