@@ -7,27 +7,60 @@
     <meta name="viewport" content="width=device-width">
 
     <link rel="stylesheet" href="{{ site.baseurl}}/css/screen.css">
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:300,400,700' rel='stylesheet' type='text/css'>
   </head>
   <body>
     <div class="site">
       <header class="header">
         <div class="inner">
-          <h1 class="huge title"><a href="{{ site.baseurl}}"><span>ECO</span>HACK<span class="white">WORLD</span></a></h1>
+          <h1 class="site-title"><a href="{{ site.baseurl}}">ECOHACK<strong>WORLD</strong></a></h1>
           <p class="date">
-            SPRING 2014 &mdash; NYC <span>/</span> SF <span>/</span> SP<br />
-
-            <a href="#submit" class="button">Submit project</a>
+            {{ page.may }} 9-10, 2014 &mdash; NYC <span>/</span> SF <span>/</span> SP
+            <a href="#submit" class="submit">{{ page.submit }}</a>
           </p>
         </div>
       </header>
 
       {{ content }}
 
-      <footer class="footer">
+      <div class="content dark">
         <div class="inner">
-          <h3 clasS="title">FYI</h3>
-          <p>EcoHack is being coordinated by <a href="https://twitter.com/lizbarry">Liz Barry</a>, <a href="https://twitter.com/robinkraft">Robin Kraft</a>, <a href="https://twitter.com/gufalei">Gustavo Faleiros</a>, <a href="https://twitter.com/andrewxhill">Andrew Hill</a> and many others!</p>
+          <div class="section">
+            <h2 class="section-header">{{ page.sponsors }}</h2>
+            <p><a href="http://www.wri.org/" target="_blank" class="logo"><img src="{{ site.baseurl}}/img/wri.png" alt="wri" /></a></p>
+
+            <p>{{ page.write }} <a href="mailto:ecohack@vizzuality.com">ecohack@vizzuality.com</a>.</p>
+          </div>
+
+          <hr />
+          <div class="section">
+            <h2 class="section-header">{{ page.partners }}</h2>
+            <p><a href="http://gif.berkeley.edu" target="_blank" class="logo"><img src="{{ site.baseurl}}/img/gif.png" alt="gif" /></a></p>
+          </div>
+
+          <hr />
+          <div class="section">
+            <h2 class="section-header">{{ page.team }}</h2>
+            <p>
+              <a href="http://publiclaboratory.org/" target="_blank" class="logo"><img src="{{ site.baseurl}}/img/public-lab-logo-small.png" alt="public-lab" /></a>
+              <a href="http://wri.github.io/datalab-site/" target="_blank" class="logo"><img src="{{ site.baseurl}}/img/datalab_logo_small.png" alt="datalab" /></a>
+              <a href="http://cartodb.com" target="_blank" class="logo"><img src="{{ site.baseurl}}/img/cartodb.png" alt="cartodb" /></a>
+              <a href="http://ecolab.oeco.org.br/" target="_blank" class="logo"><img src="{{ site.baseurl}}/img/ecolab.png" alt="ecolab" /></a>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="content contact">
+        <div class="inner">
+          <img src="{{ site.baseurl}}/img/contact.png" alt="contact" />
+          <p>{{ page.contact }} <a href="mailto:ecohack@vizzuality.com">ecohack@vizzuality.com</a>.</p>
+        </div>
+      </div>
+
+      <footer class="footer content dark">
+        <div class="inner">
+          <p>{{ page.coordinated }} <a href="https://twitter.com/lizbarry">Liz Barry</a>, <a href="https://twitter.com/robinkraft">Robin Kraft</a>, <a href="https://twitter.com/gufalei">Gustavo Faleiros</a>, <a href="https://twitter.com/andrewxhill">Andrew Hill</a> {{ page.many }}</p>
         </div>
       </footer>
     </div>
