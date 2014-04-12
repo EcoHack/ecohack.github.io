@@ -1,2 +1,4 @@
 name: EcoHack 2014
 baseurl: ''
+encoding: utf-8
+markdown: kramdown
