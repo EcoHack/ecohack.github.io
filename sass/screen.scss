@@ -3,6 +3,7 @@
 @import "compass/css3/box-shadow";
 @import "compass/css3/opacity";
 @import "compass/css3/transition";
+@import "compass/css3/inline-block";
 
 
 $cGreen: #6CBB33;
@@ -93,7 +94,11 @@ a {
 .date {
   border-bottom: 1px solid #fff;
   padding-bottom: 10px;
-  font-size: 19px;
+  font-size: 17px;
+}
+
+.pt .date {
+  font-size: 16px;
 }
 
 .submit {
@@ -133,9 +138,9 @@ a {
     width: 100%;
   }
 
-  &.three {
-    width: 200px;
-    padding: 20px 50px;
+  &.four {
+    width: 20.5%;
+    padding: 20px 10px;
     text-align: center;
 
     + .column {
@@ -332,7 +337,7 @@ hr {
 }
 
 .logo {
-  display: inline-block;
+  @include inline-block();
   margin: 50px 30px;
 }
 
