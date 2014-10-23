@@ -6,7 +6,7 @@
 @import "compass/css3/inline-block";
 
 
-$cGreen: #6CBB33;
+$cGreen: #89AA41;
 
 
 /* Layout */
@@ -27,7 +27,7 @@ $cGreen: #6CBB33;
 }
 
 html {
-  font: 17px/1.5 'Roboto Slab', serif;
+  font: 17px/1.5  'Helvetica', 'Arial', serif;
   background: #fff;
   color: #202020;
   -webkit-font-smoothing: antialiased;
@@ -62,22 +62,26 @@ a {
 /* Header */
 
 .header {
-  padding: 30px 0 160px;
+  padding: 60px 0 140px;
   background: $cGreen;
   text-align: center;
   color: #fff;
 
   .inner {
-    width: 300px;
+    //width: 300px;
   }
 }
 
 .site-title {
-  padding-top: 63px;
+  //padding-top: 63px;
   margin-bottom: 10px;
   font-size: 61px;
   line-height: 1;
-  background: image-url('header-bg.png') no-repeat right top;
+  //background: image-url('ecohack-header.svg') no-repeat right top;
+  img {
+    text-align: center;
+  }
+
 
   strong {
     display: block;
@@ -85,9 +89,9 @@ a {
   }
 
   a {
-    display: block;
-    border-top: 1px solid #fff;
-    color: #fff;
+    //display: block;
+    //border-top: 1px solid #fff;
+    //color: #fff;
   }
 }
 
@@ -126,25 +130,26 @@ a {
 }
 
 .column {
-  float: left;
+  display: inline-block;
 
   &.block {
     background: #fff;
     @include border-radius(3px);
-    @include box-shadow(0 0 10px rgba(#000, .2));
+    border: 1px solid #eee;
+    // @include box-shadow(0 0 10px rgba(#000, .2));
   }
 
   &.one {
     width: 100%;
   }
 
-  &.four {
-    width: 20.5%;
+  &.three {
+    width: 29.5%;
     padding: 20px 10px;
     text-align: center;
 
-    + .column {
-      margin-left: 30px;
+    &:nth-child(2) {
+      margin: 0 1.8%;
     }
   }
 
@@ -157,8 +162,28 @@ a {
   }
 }
 
+.row {
+  padding-top: 80px;
+  text-align: center;
+  font
+
+  .column {
+    float: none;
+    display: inline-block;
+
+    &:nth-child(4n + 1) {
+      margin: 0 1.8%;
+    }
+  }
+
+  span {
+    display: block;
+  }
+}
+
 .section {
   margin-bottom: 60px;
+  font-weight: 300;
 
   &:last-child {
     margin-bottom: 0;
@@ -167,8 +192,8 @@ a {
 
 .cities {
   margin-top: -55px;
-  font-weight: 300;
   font-size: 17px;
+  text-align: center;
 
   span {
     display: block;
@@ -192,7 +217,7 @@ a {
   font-size: 21px;
   line-height: 50px;
   text-transform: uppercase;
-  background: $cGreen;
+  background: #cecebf;
   color: #fff;
   @include border-radius(3px);
 
@@ -232,6 +257,9 @@ a {
   }
 }
 
+ul {
+  font-weight: 300;
+}
 .program {
   border-top: 1px solid #eee;
   text-align: center;
@@ -239,6 +267,10 @@ a {
   .columns {
     margin-bottom: 20px;
     background: image-url('program-bg.png') no-repeat center top;
+  }
+
+  .column {
+    float: left;
   }
 
   .section-header {
@@ -305,7 +337,7 @@ a {
 }
 
 .content {
-  padding: 40px 0;
+  padding: 20px 0;
 
   &.dark {
     font-weight: 300;
@@ -348,4 +380,8 @@ hr {
   img {
     margin-bottom: 40px;
   }
+}
+
+.disabled {
+  pointer-events: none;
 }
